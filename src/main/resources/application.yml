@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: agency-management
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: zeebe
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
